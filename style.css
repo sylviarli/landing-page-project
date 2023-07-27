@@ -13,11 +13,13 @@
 .logo {
     color:white;
     font-weight: 900;
+    font-size:24px;
 }
 ul {
     list-style: none;
     display:flex;
     gap: 16px;
+    font-size:18px;
 }
 a {
     text-decoration: none;
@@ -25,9 +27,59 @@ a {
 }
 
 .logo, .header-links {
-    padding: 16px 150px;
+    padding: 16px 96px;
+}
+/* styling the description */
+.description {
+    background-color: #1F2937;
+    display:flex;
+    padding:80px 96px;
+    justify-content: space-between;
+}
+.left-side{
+    flex-direction: column;
+    width: 50%;
 }
 
+.main-title {
+    color:white;
+    font-weight: bold;
+    font-size:48px;
+    padding-bottom:8px;
+}
+
+.summary {
+    color:#e5e7eb;
+    font-size:18px;
+    padding-bottom:8px;
+}
+
+.button {
+    background-color: #3882F6;
+    width:max-content;
+    color:white;
+    border-radius: 8px;
+    padding: 4px 24px;
+}
+
+.description .right-side {
+    display:flex;
+}
+
+.placeholder {
+    display:flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding:96px;
+}
+
+/* styling the quotation */
 .quotation-section {
     background-color:#E5e7eb;
+}
+
+
+.signup-section .button {
+    border: 1px solid white;
 }
