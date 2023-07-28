@@ -131,6 +131,42 @@ a {
 }
 
 /*sign-up section styling*/
+.signup-section {
+    padding: 48px 96px;
+    margin-bottom: 80px;
+}
 .signup-section .button {
-    border: 1px solid white;
+    border: 2px solid white;
+}
+
+.signup-content {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    padding:56px 112px;
+}
+
+.left-side {
+    width: 75%;
+    color: white;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.invitation {
+    font-weight:300;
+}
+
+/*Footer styling*/
+.footer {
+    background-color: #1F2937;
+    color:white;
+    text-align: center;
+    padding: 24px;
+    position:fixed;
+    bottom:0;
+    width:100%;
 }
