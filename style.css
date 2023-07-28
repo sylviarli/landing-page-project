@@ -110,9 +110,27 @@ a {
 /* styling the quotation */
 .quotation-section {
     background-color:#E5e7eb;
+    padding:96px;
+    display:flex;
+    justify-content: center;
 }
 
+.quote-content {
+    max-width: 760px;
+    color:#1f2937;
+}
 
+.inspiration {
+    font-size: 36px;
+    font-weight: 250;
+}
+
+.author {
+    font-weight: 900;
+    text-align: right;
+}
+
+/*sign-up section styling*/
 .signup-section .button {
     border: 1px solid white;
 }
